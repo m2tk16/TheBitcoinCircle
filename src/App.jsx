@@ -11,6 +11,7 @@ function App() {
       <div className="body">
           <Router>
               <Navigation/>
+              <div className="nav-border"></div>
               <Routes>
                   <Route path="/" exact element={<About/>}/>
                   <Route path="/dashboard" element={<Dashboard/>}/>

@@ -12,16 +12,18 @@ const Navigation = () => {
     };
 
     return (
-        <div className="navigationWrapper">
-            <Menu className="navigationMenu" triggerClassName="navigationTrigger">
-                <MenuItem onClick={() => handleMenuItemClick('/dashboard')}>Dashboard</MenuItem>
-                <MenuItem onClick={() => handleMenuItemClick('/about')}>About</MenuItem>
-                <Divider/>
-                <MenuItem onClick={() => handleMenuItemClick('/login')}>Login</MenuItem>
-                <Divider/>
-                <MenuItem onClick={() => handleMenuItemClick('/settings')}>Settings</MenuItem>
-            </Menu>
-        </div>
+        <>
+            <div className="navigationWrapper">
+                <Menu className="navigationMenu" triggerClassName="navigationTrigger">
+                    <MenuItem onClick={() => handleMenuItemClick('/dashboard')}>Dashboard</MenuItem>
+                    <MenuItem onClick={() => handleMenuItemClick('/')}>About</MenuItem>
+                    <Divider/>
+                    <MenuItem onClick={() => handleMenuItemClick('/login')}>Login</MenuItem>
+                    <Divider/>
+                    <MenuItem onClick={() => handleMenuItemClick('/settings')}>Settings</MenuItem>
+                </Menu>
+            </div>
+        </>
     )
 }
 export default Navigation;
