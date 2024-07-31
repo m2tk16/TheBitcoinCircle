@@ -14,13 +14,14 @@ const Navigation = () => {
     return (
         <>
             <div className="navigationWrapper">
+
                 <Menu className="navigationMenu" triggerClassName="navigationTrigger">
-                    <MenuItem onClick={() => handleMenuItemClick('/dashboard')}>Dashboard</MenuItem>
-                    <MenuItem onClick={() => handleMenuItemClick('/')}>About</MenuItem>
+                    <MenuItem className="MenuItem" isFullWidth="false" size="small" onClick={() => handleMenuItemClick('/dashboard')}>Dashboard</MenuItem>
+                    <MenuItem className="MenuItem" isFullWidth="false" size="small" onClick={() => handleMenuItemClick('/')}>About</MenuItem>
                     <Divider/>
-                    <MenuItem onClick={() => handleMenuItemClick('/login')}>Login</MenuItem>
+                    <MenuItem className="MenuItem" isFullWidth="false" size="small" onClick={() => handleMenuItemClick('/login')}>Login</MenuItem>
                     <Divider/>
-                    <MenuItem onClick={() => handleMenuItemClick('/settings')}>Settings</MenuItem>
+                    <MenuItem className="MenuItem" isFullWidth="false" size="small" onClick={() => handleMenuItemClick('/settings')}>Settings</MenuItem>
                 </Menu>
             </div>
         </>

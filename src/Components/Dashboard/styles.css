@@ -1,0 +1,15 @@
+.aboutWrapper {
+    padding:16px;
+    position: fixed;
+    margin-top: 36px;
+    top: 0;
+    right: 0;
+}
+
+
+.dashboardCard {
+    border: 1.5px solid #1c1e20;
+    color: black;
+    text-align: center;
+}
+

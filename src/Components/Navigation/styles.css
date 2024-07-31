@@ -11,7 +11,14 @@
 
   .navigationWrapper {
     padding:16px;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
+    display: inline-block;
+  }
+
+  .navigationMenu {
+    overflow: visible;
+    display: inline-block;
+
   }
