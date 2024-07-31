@@ -1,0 +1,19 @@
+.my-menu-trigger.amplify-menu-trigger {
+    border-color: var(--amplify-colors-secondary-90);
+    color: var(--amplify-colors-secondary-90);
+  }
+  .my-menu-content .amplify-menu-content__item {
+    color: var(--amplify-colors-secondary-90);
+  }
+  .my-menu-content .amplify-menu-content__item:hover {
+    background-color: var(--amplify-colors-secondary-90);
+  }
+
+  .navigationWrapper {
+    text-align: right;
+	margin: 0 auto;
+    padding:16px;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
