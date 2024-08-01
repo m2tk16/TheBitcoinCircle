@@ -14,15 +14,23 @@ const Navigation = () => {
     return (
         <>
             <div className="navigationWrapper">
-
-                <Menu className="navigationMenu" triggerClassName="navigationTrigger">
-                    <MenuItem className="MenuItem" isFullWidth="false" size="small" onClick={() => handleMenuItemClick('/dashboard')}>Dashboard</MenuItem>
-                    <MenuItem className="MenuItem" isFullWidth="false" size="small" onClick={() => handleMenuItemClick('/')}>About</MenuItem>
-                    <Divider/>
-                    <MenuItem className="MenuItem" isFullWidth="false" size="small" onClick={() => handleMenuItemClick('/login')}>Login</MenuItem>
-                    <Divider/>
-                    <MenuItem className="MenuItem" isFullWidth="false" size="small" onClick={() => handleMenuItemClick('/settings')}>Settings</MenuItem>
-                </Menu>
+                <div className="div-wrapper">
+                    <Menu className="navigationMenu" triggerClassName="navigationTrigger">
+                        <MenuItem className="MenuItem" isFullWidth="false" size="medium"
+                                  onClick={() => handleMenuItemClick('/dashboard')}>Dashboard</MenuItem>
+                        <MenuItem className="MenuItem" isFullWidth="false" size="medium"
+                                  onClick={() => handleMenuItemClick('/')}>About</MenuItem>
+                        <Divider/>
+                        <MenuItem className="MenuItem" isFullWidth="false" size="medium"
+                                  onClick={() => handleMenuItemClick('/login')}>Login</MenuItem>
+                        <Divider/>
+                        <MenuItem className="MenuItem" isFullWidth="false" size="medium"
+                                  onClick={() => handleMenuItemClick('/settings')}>Settings</MenuItem>
+                    </Menu>
+                </div>
+                <div className="div-wrapper header-price">
+                    BTC: $64,267
+                </div>
             </div>
         </>
     )

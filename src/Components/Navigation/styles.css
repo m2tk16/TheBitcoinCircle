@@ -15,10 +15,26 @@
     top: 0;
     right: 0;
     display: inline-block;
+    width: 100%;
   }
 
   .navigationMenu {
     overflow: visible;
     display: inline-block;
 
+  }
+  .div-wrapper {
+    color: white;
+    display: inline-block;
+  }
+
+  .header-price {
+    color: steelblue;
+    text-align: right;
+    font-family: Arial;
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding:5vw;
+    text-shadow: 0 0 8px steelblue;
   }

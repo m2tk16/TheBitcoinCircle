@@ -1,7 +1,7 @@
 .aboutWrapper {
     padding:16px;
     position: fixed;
-    margin-top: 36px;
+    margin-top: 46px;
     top: 0;
     right: 0;
 }
@@ -9,7 +9,16 @@
 
 .dashboardCard {
     border: 1.5px solid #1c1e20;
-    color: black;
+    background-color: #43464b;
     text-align: center;
+    border-radius: 2vw;
+    font-size: 3vw;
 }
 
+.Bitcoin-image{
+    border-radius: 2vw;
+}
+
+.d-hi-lo {
+    margin: 1vw;
+}
